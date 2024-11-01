@@ -1,0 +1,50 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    }
+    /* Estilos para o cabeçalho */
+    header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    }
+    /* Estilos para o título */
+    .titulo-estilizado {
+    font-size: 2em;
+    color: #333;
+    background-color: #ffdd57;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    }
+
+    /* Estilos para o cabeçalho */
+    .segundotitulo {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 3px 0px 5px rgb(2, 2, 2, 0.8);
+    }
+    /* Estilos para o título */
+    .segundotitulo-estilizado {
+    font-size: 2em;
+    color: #333;
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    box-shadow: 2px 2px 4px rgb(2, 2, 2, 0.8);
+    }
+
+    .segundotitulo-estilizado:hover {
+        transform: rotate(-1deg);
+        background-color: aqua;
+        transition: ease-in;
+    }
